@@ -1,0 +1,8 @@
+To start the installation, download and run the pre-installation script
+su // root of law
+mkdir /gitSource //create folder
+cd /gitSource //in folder
+wget https://github.com/MAXPOL/OTRS/releases/download/preparation.sh/preparation.sh //download sh script
+chmod +x preparation.sh // give executable file permissions
+chmod 0777 preparation.sh //give full access rights
+./preparation.sh // start script
